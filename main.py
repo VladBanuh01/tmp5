@@ -23,3 +23,9 @@ for i in 'hello world':
         continue
     print(i * 2, end='')
 
+# Bytearray
+bs2 = bytearray(b"hello world!")
+print(bs[0])
+print(bs2)
+bs2[0] = 105
+print(bs2)
